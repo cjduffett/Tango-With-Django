@@ -2,7 +2,7 @@ from django.contrib import admin
 from rango.models import Category, Page
 
 class CategoryAdmin(admin.ModelAdmin):
-    fields = ['name', 'views', 'likes']
+    fields = ['name', 'views', 'likes', 'slug']
     list_display = ('name', 'views', 'likes')
     search_fields = ['name']
 
