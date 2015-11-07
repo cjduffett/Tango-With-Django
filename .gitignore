@@ -4,3 +4,4 @@
 *.sqlite3
 */migrations/*
 .idea/workspace.xml
+*/venv/*
