@@ -1,4 +1,6 @@
 
 *.xml
-
-*.xml
+*.pyc
+*.sqlite3
+*/migrations/*
+.idea/workspace.xml
